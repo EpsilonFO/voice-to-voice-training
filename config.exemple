@@ -1,0 +1,13 @@
+import pyaudio
+
+VOICE_ID = "b35yykvVppLXyw_l"  # Elise - voix francaise
+GRADIUM_API_KEY = ""
+MISTRAL_API_KEY = ""
+MISTRAL_MODEL = "mistral-small"
+
+STT_SAMPLE_RATE = 24000
+TTS_SAMPLE_RATE = 48000
+CHANNELS = 1
+FORMAT = pyaudio.paInt16
+STT_CHUNK_SIZE = 1920
+TTS_CHUNK_SIZE = 3840
